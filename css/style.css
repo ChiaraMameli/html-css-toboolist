@@ -17,6 +17,25 @@ body {
     margin: 50px auto;
 }
 
+/* Utils */
+
+hr {
+    border: 1px solid #F3F3F3;
+}
+
+.bg-blue {
+    background-color: #1394fd;
+}
+
+#bg-white {
+    background-color: #FFF;
+    color: grey;
+}
+
+.white-text {
+    color: white;
+}
+
 /* Header */
 
 header {
@@ -34,4 +53,23 @@ h1 {
 
 #logo {
     vertical-align: middle;
+}
+
+/* Buttons */
+
+#button-set {
+    height: 60px;
+}
+
+#button-layout {
+    height: 32px;
+    padding: 14px 42px;
+
+}
+
+.button {
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid #DADADA;
+    display: inline-block;
 }
