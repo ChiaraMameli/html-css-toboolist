@@ -18,11 +18,16 @@ body {
 }
 
 #list-container {
-    padding: 42px;
+    padding: 0 42px;
 }
 
 ul {
     list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    padding: 10px;
 }
 
 /* Utils */
@@ -36,12 +41,39 @@ hr {
     border-color:#1394fd ;
 }
 
+.bg-purple {
+    background-color: purple;
+    border-color: purple ;
+}
+
+.bg-green {
+    background-color: green;
+    border-color: green ;
+}
+
+.bg-orange {
+    background-color: orange;
+    border-color: orange ;
+}
+
+
 #bg-white {
     background-color: #FFF;
     color: grey;
     border: 1px solid #DADADA;
 
 }
+
+.bg-pink {
+    background-color: pink;
+    border-color: pink ;
+}
+
+.bg-acidgreen {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
 
 .white-text {
     color: white;
@@ -52,15 +84,22 @@ hr {
     height: 15px;
     width: 15px;
     border-radius: 50%;
+    font-size: small;
+    text-align: center;
+    line-height: 15px;
+
 }
 
 .check-green {
     color: green;
-    font-size: small;
-    text-align: center;
-    line-height: 15px;
     border: 1px solid green;
 }
+
+.check-red {
+    color: red;
+    border: 1px solid red;
+}
+
 
 .down {
     font-size: small;
