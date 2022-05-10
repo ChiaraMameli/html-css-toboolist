@@ -17,6 +17,14 @@ body {
     margin: 50px auto;
 }
 
+#list-container {
+    padding: 42px;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* Utils */
 
 hr {
@@ -25,15 +33,37 @@ hr {
 
 .bg-blue {
     background-color: #1394fd;
+    border-color:#1394fd ;
 }
 
 #bg-white {
     background-color: #FFF;
     color: grey;
+    border: 1px solid #DADADA;
+
 }
 
 .white-text {
     color: white;
+}
+
+.check {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.check-green {
+    color: green;
+    font-size: small;
+    text-align: center;
+    line-height: 15px;
+    border: 1px solid green;
+}
+
+.down {
+    font-size: small;
 }
 
 /* Header */
@@ -68,8 +98,24 @@ h1 {
 }
 
 .button {
-    padding: 8px;
+    padding: 5px 8px;
     border-radius: 7px;
-    border: 1px solid #DADADA;
+}
+
+/* List */
+
+.label {
+    height: 27px;
+    width: 68px;
+    font-size: 11px;
+    color: #FFF;
     display: inline-block;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 10px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: 700;
 }
