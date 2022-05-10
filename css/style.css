@@ -8,6 +8,7 @@
 
 body {
     background-color: #F3F3F3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -30,6 +31,10 @@ li {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Utils */
 
 hr {
@@ -37,42 +42,42 @@ hr {
 }
 
 .bg-blue {
-    background-color: #1394fd;
-    border-color:#1394fd ;
+    background-color: #15b9f9;
+    border-color: #15b9f9 ;
 }
 
 .bg-purple {
-    background-color: purple;
-    border-color: purple ;
+    background-color: #d15dd1;
+    border-color: #d15dd1 ;
 }
 
 .bg-green {
-    background-color: green;
-    border-color: green ;
+    background-color: #8df349;
+    border-color: #8df349 ;
 }
 
 .bg-orange {
-    background-color: orange;
-    border-color: orange ;
+    background-color: #ffa500;
+    border-color: #ffa500 ;
+}
+
+.bg-pink {
+    background-color: #ffd3da;
+    border-color: #ffd3da ;
+}
+
+.bg-acidgreen {
+    background-color: #6eff6e;
+    border-color: #6eff6e;
 }
 
 
 #bg-white {
     background-color: #FFF;
-    color: grey;
+    color: #808080;
     border: 1px solid #DADADA;
 
-}
-
-.bg-pink {
-    background-color: pink;
-    border-color: pink ;
-}
-
-.bg-acidgreen {
-    background-color: lightgreen;
-    border-color: lightgreen;
-}
+}    
 
 
 .white-text {
@@ -116,7 +121,6 @@ header {
 h1 {
     display: inline;
     vertical-align: middle;
-    font-family: sans-serif;
     font-size: 40px;
 }
 
@@ -133,7 +137,7 @@ h1 {
 #button-layout {
     height: 32px;
     padding: 14px 42px;
-
+    line-height: 32px;
 }
 
 .button {
@@ -155,6 +159,5 @@ h1 {
 }
 
 h3{
-    font-family: sans-serif;
     font-weight: 700;
 }
